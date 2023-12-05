@@ -84,9 +84,9 @@ button {
   padding: 0; /* Виправлено відступи у списку */
 }
 
-.menu-item {
+/* .menu-item {
   position: relative;
-}
+} */
 
 .menu-link {
   color: #2e2f42;
@@ -94,6 +94,7 @@ button {
   text-decoration: none; /* Додано властивість для відміни стандартного оформлення посилань */
   padding: 28px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
 }
 
 .menu-link:hover,
@@ -122,8 +123,8 @@ button {
   text-transform: uppercase;
 }
 
-.menu-item::after {
-  position: absolute;
+/* .menu-link:active:after {
+
   left: 0;
   bottom: -1px;
   height: 4px;
@@ -131,7 +132,7 @@ button {
   background-color: #404bbf;
   content: "";
   display: block;
-}
+} */
 
 .address {
   display: flex;

@@ -386,9 +386,9 @@ button {
   transition: transform 250ms linear;
 }
 .our-portfolio-img-box:hover .our-portfolio-overlay {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
-.our-portfolio-overlay-p {
+.our-portfolio-overlay {
   color: #f4f4fd;
   font-family: Roboto;
   font-size: 16px;
@@ -397,6 +397,8 @@ button {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
+
+
 /* --------------------footer ----------------------------*/
 .footer-container {
   display: flex;

@@ -372,20 +372,21 @@ button {
   overflow: hidden;
   position: relative;
 }
+
 .our-portfolio-overlay {
   position: absolute;
   background: #4d5ae5;
   padding: 40px 32px 164px 32px;
-
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  transform: translatey(100%);
-  transition: transform 250ms ease-in-out;
+  overflow: auto;
+  transform: translateY(100%);
+  transition: transform 250ms linear;
 }
 .our-portfolio-img-box:hover .our-portfolio-overlay {
-  transform: translatey(0);
+  transform: translateY(0);
 }
 .our-portfolio-overlay-p {
   color: #f4f4fd;
